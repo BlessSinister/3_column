@@ -146,6 +146,7 @@ body {
         grid-row: 1/1;
         border-radius: 0;
         padding-left: 5rem;
+        justify-self: end;
         svg {
           margin-bottom: 2rem;
         }
@@ -163,7 +164,7 @@ body {
           margin-bottom: 10rem;
         }
         .btn {
-          width: 30%;
+          width: 45%;
           height: 10%;
           display: flex;
           justify-content: center;
@@ -181,6 +182,7 @@ body {
         grid-row: 1/1;
         border-radius: 0;
         padding-left: 5rem;
+        justify-self: start;
         svg {
           margin-bottom: 2rem;
         }
@@ -198,7 +200,7 @@ body {
           margin-bottom: 10rem;
         }
         .btn {
-          width: 30%;
+          width: 48%;
           height: 10%;
           display: flex;
           justify-content: center;
@@ -212,7 +214,8 @@ body {
         }
       }
       .card3 {
-        grid-column: 7/10;
+        grid-column: 6/10;
+        justify-self: start;
         grid-row: 1/1;
         border-radius: 0;
         padding-left: 5rem;
@@ -233,7 +236,7 @@ body {
           margin-bottom: 10rem;
         }
         .btn {
-          width: 30%;
+          width: 48%;
           height: 10%;
           cursor: pointer;
           display: flex;

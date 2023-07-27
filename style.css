@@ -147,6 +147,7 @@ body .container .card3 .btn {
     grid-row: 1/1;
     border-radius: 0;
     padding-left: 5rem;
+    justify-self: end;
   }
   body .container .card1 svg {
     margin-bottom: 2rem;
@@ -165,7 +166,7 @@ body .container .card3 .btn {
     margin-bottom: 10rem;
   }
   body .container .card1 .btn {
-    width: 30%;
+    width: 45%;
     height: 10%;
     display: flex;
     justify-content: center;
@@ -182,6 +183,7 @@ body .container .card3 .btn {
     grid-row: 1/1;
     border-radius: 0;
     padding-left: 5rem;
+    justify-self: start;
   }
   body .container .card2 svg {
     margin-bottom: 2rem;
@@ -200,7 +202,7 @@ body .container .card3 .btn {
     margin-bottom: 10rem;
   }
   body .container .card2 .btn {
-    width: 30%;
+    width: 48%;
     height: 10%;
     display: flex;
     justify-content: center;
@@ -213,7 +215,8 @@ body .container .card3 .btn {
     color: rgb(1, 105, 114);
   }
   body .container .card3 {
-    grid-column: 7/10;
+    grid-column: 6/10;
+    justify-self: start;
     grid-row: 1/1;
     border-radius: 0;
     padding-left: 5rem;
@@ -235,7 +238,7 @@ body .container .card3 .btn {
     margin-bottom: 10rem;
   }
   body .container .card3 .btn {
-    width: 30%;
+    width: 48%;
     height: 10%;
     cursor: pointer;
     display: flex;
